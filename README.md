@@ -28,5 +28,30 @@ Um gerenciador de tarefas moderno, responsivo e minimalista desenvolvido em **Re
 Siga os passos abaixo para rodar o projeto localmente em sua máquina:
 
 1. **Clone o repositório:**
-   ```bash
    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+
+   Entre na pasta do projeto:
+   cd nome-do-repositorio
+
+    Instale as dependências:
+    npm install
+
+    Inicie o servidor de desenvolvimento:
+    npm run dev
+
+    Acesse no navegador:
+    Abra o endereço exibido no terminal (geralmente http://localhost:5173).
+
+📂 Estrutura do Projeto
+
+A organização dos arquivos segue as boas práticas de componentização do React:
+src/
+├── components/
+│   ├── AddTasks.jsx   # Formulário de criação de tarefas
+│   ├── Button.jsx     # Componente de botão customizado
+│   ├── Input.jsx      # Componente de input padrão do app
+│   ├── Tasks.jsx      # Listagem e lógica visual dos itens
+│   └── Title.jsx      # Título principal estilizado
+├── App.jsx            # Componente pai (gerencia estados e métodos globais)
+├── index.css          # Configurações do Tailwind e estilos globais
+└── main.jsx           # Ponto de entrada do React
