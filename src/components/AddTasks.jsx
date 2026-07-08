@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "./Button";
-import Input from "./Input";
+import Button from "./button"; // Importando com o nome exato do componente
+import Input from "./input"; // Importando com o nome exato do componente
 
 function AddTasks({ addTask }) {
   const [title, setTitle] = useState("");
