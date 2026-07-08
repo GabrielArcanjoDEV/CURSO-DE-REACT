@@ -7,7 +7,6 @@ function Tasks({ tasks, deleteTask, completeTask }) {
             key={task.id}
             className="bg-[#64748b] rounded-md p-4 flex items-center justify-between shadow-sm"
           >
-            {/* Botão de texto da tarefa */}
             <button
               onClick={() => completeTask(task.id)}
               className={`flex-1 text-left text-white font-medium text-lg ${
@@ -17,9 +16,7 @@ function Tasks({ tasks, deleteTask, completeTask }) {
               {task.title}
             </button>
 
-            {/* Botões laterais iguais aos da imagem */}
             <div className="flex gap-2 ml-4">
-              {/* Botão de detalhes (Chevron) */}
               <button
                 onClick={() => completeTask(task.id)}
                 className="bg-[#7e8aa2] hover:bg-[#6c7a93] text-white px-4 py-2.5 rounded-md transition font-bold"
@@ -27,7 +24,6 @@ function Tasks({ tasks, deleteTask, completeTask }) {
                 &gt;
               </button>
 
-              {/* Botão de deletar (Lixeira) */}
               <button
                 onClick={() => deleteTask(task.id)}
                 className="bg-[#7e8aa2] hover:bg-[#6c7a93] text-white p-2.5 rounded-md transition flex items-center justify-center"
