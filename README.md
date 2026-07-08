@@ -1,43 +1,142 @@
 # 📋 Gerenciador de Tarefas (Task Manager)
 
-Um gerenciador de tarefas moderno, responsivo e minimalista desenvolvido em **React** com **Vite** e estilizado com **Tailwind CSS**. Este projeto foi construído para praticar os conceitos fundamentais do React, como estados (`useState`), efeitos (`useEffect`), componentização e persistência de dados.
+Um **Gerenciador de Tarefas** moderno, intuitivo e responsivo desenvolvido com **React**, **Vite** e **Tailwind CSS**.
+
+O projeto foi criado com o objetivo de praticar conceitos essenciais do ecossistema React, como gerenciamento de estado, componentização, persistência de dados e criação de interfaces modernas utilizando Tailwind CSS.
+
+---
+
+## ✨ Demonstração
+
+> *Adicione aqui uma captura de tela ou GIF do projeto.*
+
+<img src="./public/preview.png" alt="Preview do projeto" width="900"/>
 
 ---
 
 ## 🚀 Funcionalidades
 
-* **Adicionar Tarefas:** Crie novas tarefas informando um título e uma descrição detalhada.
-* **Concluir/Alternar Status:** Clique no título da tarefa para marcá-la como concluída (ganha efeito de riscado e opacidade reduzida).
-* **Persistência Local (LocalStorage):** Suas tarefas ficam salvas no navegador. Mesmo se você atualizar a página, os dados não são perdidos.
-* **Remover Tarefas:** Exclua tarefas da lista com um clique no botão de lixeira.
-* **Interface Fiel:** Layout limpo e estilizado combinando perfeitamente com paletas de cores modernas (Slate/Cinza-azulado).
+* ✅ Adicionar novas tarefas
+* 📝 Inserir título e descrição para cada tarefa
+* ✔️ Marcar tarefas como concluídas
+* 🔄 Alternar o status de conclusão com apenas um clique
+* 💾 Persistência automática utilizando **LocalStorage**
+* 🗑️ Remover tarefas individualmente
+* 📱 Interface totalmente responsiva
+* 🎨 Design moderno inspirado em aplicações de produtividade
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **[React](https://react.dev/):** Biblioteca JavaScript para construção de interfaces.
-* **[Vite](https://vitejs.dev/):** Bundler rápido de última geração para desenvolvimento frontend.
-* **[Tailwind CSS](https://tailwindcss.com/):** Framework utilitário para estilização rápida e responsiva.
-* **LocalStorage API:** Para persistência de dados no lado do cliente.
+| Tecnologia           | Descrição                                       |
+| -------------------- | ----------------------------------------------- |
+| ⚛️ React             | Biblioteca para construção da interface         |
+| ⚡ Vite               | Ambiente de desenvolvimento extremamente rápido |
+| 🎨 Tailwind CSS      | Framework utilitário para estilização           |
+| 💾 LocalStorage      | Persistência dos dados no navegador             |
+| 📜 JavaScript (ES6+) | Linguagem principal do projeto                  |
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── AddTask.jsx
+│   ├── Button.jsx
+│   ├── Input.jsx
+│   ├── Task.jsx
+│   └── Tasks.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
 ---
 
 ## 📦 Como Executar o Projeto
 
-Siga os passos abaixo para rodar o projeto localmente em sua máquina:
+### 1️⃣ Clone o repositório
 
-1. **Clone o repositório:**
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-   **Entre na pasta do projeto:**
-   cd nome-do-repositorio
+### 2️⃣ Acesse a pasta do projeto
 
-    **Instale as dependências:**
-     npm install
+```bash
+cd nome-do-repositorio
+```
 
-    **Inicie o servidor de desenvolvimento:**
-     npm run dev
+### 3️⃣ Instale as dependências
 
-    **Acesse no navegador:**
-     Abra o endereço exibido no terminal (geralmente http://localhost:5173).
+```bash
+npm install
+```
+
+### 4️⃣ Execute o projeto
+
+```bash
+npm run dev
+```
+
+### 5️⃣ Abra no navegador
+
+Acesse:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 💡 Conceitos Praticados
+
+Durante o desenvolvimento deste projeto foram utilizados conceitos importantes do React:
+
+* Componentização
+* Props
+* useState
+* useEffect
+* Renderização de listas
+* Manipulação de eventos
+* Persistência com LocalStorage
+* Estilização com Tailwind CSS
+* Organização de componentes
+* Responsividade
+
+---
+
+## 🎯 Objetivo
+
+Este projeto faz parte dos meus estudos em **React**, buscando consolidar conhecimentos em desenvolvimento Front-end através da criação de aplicações funcionais, organizadas e com uma boa experiência de usuário.
+
+---
+
+## 📈 Melhorias Futuras
+
+* 🔍 Pesquisa de tarefas
+* 🗂️ Filtro por status (Todas, Pendentes e Concluídas)
+* ✏️ Editar tarefas
+* 🌙 Modo escuro
+* 📅 Data de criação
+* ⭐ Prioridade das tarefas
+* 📌 Categorias
+* 🔔 Lembretes
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Gabriel Arcanjo**
+
+* GitHub: https://github.com/GabrielArcanjoDEV
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de estudo e aprendizado.
