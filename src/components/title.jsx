@@ -1,4 +1,4 @@
-function Title({ children }) {
+function title({ children }) {
   return (
     <h1 className="text-4xl font-bold text-center text-white mb-6">
       {children}
@@ -6,4 +6,4 @@ function Title({ children }) {
   );
 }
 
-export default Title;
+export default title;
