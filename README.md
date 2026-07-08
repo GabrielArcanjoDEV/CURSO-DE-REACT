@@ -8,11 +8,8 @@ O projeto foi criado com o objetivo de praticar conceitos essenciais do ecossist
 
 ## ✨ Demonstração
 
-> *Adicione aqui uma captura de tela ou GIF do projeto.*
+<img width="1612" height="908" alt="image" src="https://github.com/user-attachments/assets/4fe1fa40-44da-410d-821b-9f75e66d0990" />
 
-<img src="./public/preview.png" alt="Preview do projeto" width="900"/>
-
----
 
 ## 🚀 Funcionalidades
 
