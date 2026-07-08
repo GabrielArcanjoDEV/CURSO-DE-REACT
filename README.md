@@ -30,18 +30,14 @@ Siga os passos abaixo para rodar o projeto localmente em sua máquina:
 1. **Clone o repositório:**
    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
 
-   Entre na pasta do projeto:
-   
+   **Entre na pasta do projeto:**
    cd nome-do-repositorio
 
-    Instale as dependências:
-   
-    npm install
+    **Instale as dependências:**
+     npm install
 
-    Inicie o servidor de desenvolvimento:
-   
-    npm run dev
+    **Inicie o servidor de desenvolvimento:**
+     npm run dev
 
-    Acesse no navegador:
-   
-    Abra o endereço exibido no terminal (geralmente http://localhost:5173).
+    **Acesse no navegador:**
+     Abra o endereço exibido no terminal (geralmente http://localhost:5173).
